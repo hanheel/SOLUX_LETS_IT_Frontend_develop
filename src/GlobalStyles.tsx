@@ -131,16 +131,18 @@ const resetCss = css`
 `;
 
 const themeVariables = css`
+  @font-face {
+    font-family: 'SUIT';
+    src: url('/fonts/SUIT-Variable.woff2') format('woff2-variations');
+    font-weight: 100 900; 
+    font-style: normal;
+    font-display: swap;
+  }
   :root {
-    --color-black: #222222;
-    --color-dark-grey: #555555;
-    --color-white: #ffffff;
-    --color-light-grey: #e1e1e1;
-    --color-grey: #d7d7d7;
-    --color-red: #f54d4d;
-    --color-light-red: #ffc9c9;
+    --color-primary: #1E5EFF;
+    --color-secondary: #EBEFFF;
 
-    --font-family: 'Noto Sans KR';
+    --font-family: 'SUIT';
     --font-size-title: 24px;
     --font-weight-title: 700;
 
