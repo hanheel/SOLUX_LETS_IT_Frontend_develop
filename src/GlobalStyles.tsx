@@ -139,7 +139,7 @@ const themeVariables = css`
     font-display: swap;
   }
   :root {
-    /**임시 디자인 시스템 */
+/** TODO : 디자인 시스템 맞춰서 수정 */
     --color-primary: #1E5EFF;
     --color-secondary: #EBEFFF;
     --color-white: #ffffff;
@@ -150,17 +150,39 @@ const themeVariables = css`
     --color-black: #000;
 
     --font-family: 'SUIT';
-    --font-size-title: 24px;
-    --font-weight-title: 700;
 
-    --font-size-subtitle: 14px;
-    --font-weight-subtitle: 700;
-
-    --font-size-placeholder: 14px;
-    --font-weight-placeholder: 500;
-
-    --font-size-body: 12px;
-    --font-weight-body: 500;
+    /* Headline */
+    --font-size-title: 28px;
+    --font-weight-title: 700; 
+    
+    /* Subtitle (H2) */
+    --font-size-subtitle: 22px;
+    --font-weight-subtitle: 600; 
+    
+    /* Body */
+    --font-size-body-large: 16px;
+    --font-weight-body-large: 500;
+    --line-height-body-large: 150%;
+    
+    --font-size-body-regular: 15px;
+    --font-weight-body-regular: 400;
+    --line-height-body-regular: 160%;
+    
+    /* Caption */
+    --font-size-caption: 12px;
+    --font-weight-caption: 400;
+    --line-height-caption: 160%;
+    
+    /* Button */
+    --font-size-button-primary: 16px;
+    --font-weight-button-primary: 500;
+    --line-height-button-primary: 120%;
+    
+    /* Input Label */
+    --font-size-label-input: 14px;
+    --font-weight-label-input: 400; 
+    --line-height-label-input: 140%;
+    
 
     --height-header: 66px;
     --max-width-container: 430px;
