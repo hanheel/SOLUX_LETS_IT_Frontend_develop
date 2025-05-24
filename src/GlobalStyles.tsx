@@ -141,6 +141,7 @@ const themeVariables = css`
   :root {
     --color-primary: #1E5EFF;
     --color-secondary: #EBEFFF;
+    --color-white: #ffffff;
 
     --font-family: 'SUIT';
     --font-size-title: 24px;
