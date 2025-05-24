@@ -1,7 +1,7 @@
 import * as S from './Select.styles';
 import { useRef, useState } from 'react';
 import useOutsideClick from '../../hooks/useOutsideClick';
-import SelectDownIcon from '/public/icon/select-down-icon.svg';
+import SelectDownIcon from '/public/icons/select-down-icon.svg';
 
 interface SelectProps {
   options: string[];
