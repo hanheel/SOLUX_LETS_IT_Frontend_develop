@@ -22,6 +22,10 @@ export const ButtonContainer = styled.button<{ $variant: ButtonVariantsTypes }>`
   width: 100%;
   border-radius: 4px;
   box-sizing: border-box;
+  font-size: var(--font-size-button-primary);
+  font-weight: var(--font-weight-button-primary);
+  line-height: var(--line-height-button-primary);
+
 
   &:disabled {
     background-color: var(--color-grey);

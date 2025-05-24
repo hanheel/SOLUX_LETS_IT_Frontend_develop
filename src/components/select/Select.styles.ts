@@ -29,7 +29,7 @@ export const SelectIcon = styled.img`
 `;
 
 export const DefaultMessage = styled.p`
-  font-size: var(--font-size-body);
+  font-size: var(--font-size-body-regular);
 `;
 
 export const OptionsContainer = styled.ul`
